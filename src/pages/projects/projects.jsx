@@ -6,6 +6,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects-container">
+        <div className="title">Projects</div>
         <Project
           projectName="Project 1"
           href="https://www.youtube.com/watch?v=AnOAZsezLEg"
