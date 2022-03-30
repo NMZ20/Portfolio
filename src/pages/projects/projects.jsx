@@ -7,7 +7,7 @@ class Projects extends Component {
     return (
       <div className="projects-container">
         <Project
-          projectName="Soon"
+          projectName="Will be added soon"
           href=""
         />
       </div>
