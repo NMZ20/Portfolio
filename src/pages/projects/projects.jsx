@@ -7,12 +7,9 @@ class Projects extends Component {
     return (
       <div className="projects-container">
         <Project
-          projectName="Project 1"
-          href="https://www.youtube.com/watch?v=AnOAZsezLEg"
+          projectName="Soon"
+          href=""
         />
-        <Project projectName="Project 2" />
-        <Project projectName="Project 3" />
-        <Project projectName="Project 4" />
       </div>
     );
   }
