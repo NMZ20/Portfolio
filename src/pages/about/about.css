@@ -1,0 +1,24 @@
+.aboutContainer {
+  width: 70vw;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 30px;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  word-spacing: 2px;
+  padding: 25px;
+  color: rgb(74, 75, 77);
+  line-height: 2;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 950px) {
+  .aboutContainer {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutContainer {
+    font-size: 18px;
+  }
+}

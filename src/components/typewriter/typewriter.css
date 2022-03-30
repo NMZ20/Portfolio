@@ -1,0 +1,172 @@
+.typewriter-container {
+  position: relative;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+.typewriter-container h1 {
+  border-right: 0.15em solid orange;
+  font-size: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typewriter-container h1:nth-child(1) {
+  width: 2.5em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 0.5s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.typewriter-container h1:nth-child(2) {
+  width: 12.3em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.typewriter-container h1:nth-child(3) {
+  width: 14em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(40, end),
+    blink 0.5s step-end infinite alternate;
+  animation: type3 3s steps(40, end), blink 0.5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .typewriter-container {
+    margin-top: 50px;
+  }
+  .typewriter-container h1 {
+    font-size: 5vw;
+  }
+  .typewriter-container h1:nth-child(1) {
+    /* width: 2.5em; */
+    width: 1.8em;
+  }
+
+  .typewriter-container h1:nth-child(2) {
+    width: 12em;
+  }
+
+  .typewriter-container h1:nth-child(3) {
+    width: 14.5em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .typewriter-container h1:nth-child(1) {
+    /* width: 2.5em; */
+    width: 2.5em;
+  }
+
+  .typewriter-container h1:nth-child(2) {
+    width: 14em;
+  }
+
+  .typewriter-container h1:nth-child(3) {
+    width: 16.7em;
+  }
+}

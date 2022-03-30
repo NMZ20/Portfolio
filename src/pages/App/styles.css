@@ -1,0 +1,90 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  position: relative;
+  bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.getInTouch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.faIcon {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.growIcon {
+  transition: all 0.2s;
+}
+
+.growIcon:hover {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.designerName {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Sora", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.copyRights {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cpIcon {
+  margin-right: 5px;
+}
+
+.hLink {
+  color: white;
+}
+
+@media only screen and (max-width: 950px) {
+  .faIcon {
+    height: 7vw;
+    width: 7vw;
+  }
+  .designerName {
+    font-size: 3vw;
+  }
+}

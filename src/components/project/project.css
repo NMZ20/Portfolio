@@ -1,0 +1,64 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 130px;
+  background-color: white;
+  border-radius: 25px;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;
+  margin: 20px;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.growProject {
+  transition: all 0.2s;
+}
+
+.growProject:hover {
+  width: 520px;
+  height: 140px;
+  cursor: pointer;
+}
+
+.project-name {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 4ch;
+  animation: color-change 20s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: #ee7752;
+  }
+  25% {
+    color: #e73c7e;
+  }
+  50% {
+    color: #23a6d5;
+  }
+  75% {
+    color: #23d5ab;
+  }
+  100% {
+    color: #ee7752;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .project-container {
+    width: 70vw;
+  }
+  .project-name {
+    font-size: 8vw;
+  }
+  .growProject:hover {
+    width: 72vw;
+    height: 140px;
+    cursor: pointer;
+  }
+}
