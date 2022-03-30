@@ -69,7 +69,7 @@ class App extends Component {
               >
                 <FontAwesomeIcon className="faIcon growIcon " icon={faGithub} />
               </a>
-              <a className="hLink" href="mailto:almuzahmi12345@gmail.com">
+              <a className="hLink" href="mailto:NMZ20@outlook.com">
                 <FontAwesomeIcon
                   className="faIcon growIcon "
                   icon={faEnvelope}
