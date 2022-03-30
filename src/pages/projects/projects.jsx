@@ -8,12 +8,9 @@ class Projects extends Component {
       <div className="projects-container">
         <div className="title">Projects</div>
         <Project
-          projectName="Project 1"
-          href="https://www.youtube.com/watch?v=AnOAZsezLEg"
+          projectName="Will be added soon"
+          href=""
         />
-        <Project projectName="Project 2" />
-        <Project projectName="Project 3" />
-        <Project projectName="Project 4" />
       </div>
     );
   }
