@@ -8,8 +8,12 @@ class Projects extends Component {
       <div className="projects-container">
         <div className="title">Projects</div>
         <Project
-          projectName="Will be added soon"
-          href=""
+          projectName="Portfolio Website"
+          href="https://github.com/NMZ20/Portfolio"
+        />
+        <Project
+          projectName="Multiple-Choice Quiz"
+          href="https://github.com/NMZ20/Multible-Choice-Quiz"
         />
       </div>
     );
