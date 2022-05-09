@@ -44,7 +44,7 @@ class App extends Component {
               </a>
               <a
                 className="hLink"
-                href="https://www.linkedin.com/in/nasser-almuzahmi-887379193/"
+                href="https://www.linkedin.com/in/nasser-al-muzahmi-887379193"
                 target="_blank"
               >
                 <FontAwesomeIcon
