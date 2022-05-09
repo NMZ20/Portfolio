@@ -81,7 +81,7 @@ class App extends Component {
             </div>
             <div className="copyRights">
               <FontAwesomeIcon className="cpIcon" icon={faCopyright} />
-              Coventry Holding LLC 2022
+              NMZ 2022
             </div>
           </div>
         </div>
