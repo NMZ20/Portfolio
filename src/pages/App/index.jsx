@@ -15,6 +15,7 @@ import Skills from "../skills/skills";
 import About from "../about/about";
 import Projects from "../projects/projects";
 import "./styles.css";
+import NotFound from "../notFound/notFound";
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="" element={<Navigate to="/home" replace />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
 
           <div className="footer">
