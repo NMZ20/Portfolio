@@ -13,6 +13,10 @@ class Projects extends Component {
         />
         <Project
           projectName="Multiple-Choice Quiz"
+          href="https://nmz20.github.io/Multible-Choice-Quiz/"
+        />
+        <Project
+          projectName="Omniware's Website"
           href="https://github.com/NMZ20/Multible-Choice-Quiz"
         />
       </div>
