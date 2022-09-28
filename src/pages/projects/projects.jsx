@@ -17,7 +17,7 @@ class Projects extends Component {
         />
         <Project
           projectName="Omniware's Website"
-          href="https://github.com/NMZ20/Multible-Choice-Quiz"
+          href="https://seal-app-fiyei.ondigitalocean.app/"
         />
       </div>
     );
