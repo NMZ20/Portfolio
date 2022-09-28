@@ -15,6 +15,9 @@ class Skills extends Component {
           <Skill skillName="C" />
           <Skill skillName="Python" />
           <Skill skillName="React.JS" />
+          <Skill skillName="Node.JS" />
+          <Skill skillName="Express.JS" />
+          <Skill skillName="SQL" />
         </div>
       </div>
     );
