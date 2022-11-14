@@ -20,7 +20,7 @@ class Projects extends Component {
           href="https://seal-app-fiyei.ondigitalocean.app/"
         />
         <Project
-          projectName="Calendar Appo"
+          projectName="Calendar App"
           href="https://nmz20.github.io/golands-calendar-task/"
         />
       </div>
