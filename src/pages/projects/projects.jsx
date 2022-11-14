@@ -19,6 +19,10 @@ class Projects extends Component {
           projectName="Omniware's Website"
           href="https://seal-app-fiyei.ondigitalocean.app/"
         />
+        <Project
+          projectName="Calendar App"
+          href="https://nmz20.github.io/golands-calendar-task/"
+        />
       </div>
     );
   }
